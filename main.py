@@ -154,11 +154,11 @@ print(txt.split("-"))
 
 txt = "bangladesh How country"
 print(txt.partition("How"))
-
+#comparision Operator
 a = 233
 b = 23
 if a > b:
     print("b is the greater than a")
 else:
     print("b is the not greater than a")
-#python List
+
