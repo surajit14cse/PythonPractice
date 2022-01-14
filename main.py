@@ -161,4 +161,8 @@ if a > b:
     print("b is the greater than a")
 else:
     print("b is the not greater than a")
+# Change the second item
+list = ["rubel","panda","faisal"]
+list[1] = "surajit"
+print(list)
 
