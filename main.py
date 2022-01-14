@@ -204,6 +204,14 @@ list2 = ["borishal","patuakhali","magura"]
 thislist.extend(list2)
 print(thislist)
 
+#Remove Specified Item
+listitem = ["banana","apple","orange"]
+listitem.remove("apple")
+print(listitem)
+
+listitem = ["banana","apple","orange","komla"]
+listitem.pop(1,2)
+print(listitem)
 
 
 
