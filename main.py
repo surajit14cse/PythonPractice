@@ -165,4 +165,8 @@ else:
 list = ["rubel","panda","faisal"]
 list[1] = "surajit"
 print(list)
+#Change the values "banana" and "cherry" with the values "blackcurrant" and "watermelon"
+thislist = ["apple","banana","cherry","orange","kiwi","Mango"]
+thislist [1:3] = "Blackcurrant","watermelon"
+print(thislist)
 
