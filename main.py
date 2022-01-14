@@ -192,6 +192,13 @@ print(a)
 a.extend([9,8,7])
 print(a)
 
+#insert
+a = [1,2,3,4]
+print(a)
+
+a.insert(2,32)
+print(a)
+
 
 
 
