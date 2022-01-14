@@ -198,6 +198,11 @@ print(a)
 
 a.insert(2,32)
 print(a)
+#Add the elements
+thislist = ["khulna","dhaka","jessore","gopalgong"]
+list2 = ["borishal","patuakhali","magura"]
+thislist.extend(list2)
+print(thislist)
 
 
 
