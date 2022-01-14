@@ -170,3 +170,22 @@ thislist = ["apple","banana","cherry","orange","kiwi","Mango"]
 thislist [1:3] = "Blackcurrant","watermelon"
 print(thislist)
 
+thislist = ["apple","banana","cherry"]
+thislist[1:2] = "blackcurrant","watermelon"
+print(thislist)
+#append
+
+a = [1,2,3]
+print(a)
+
+a.append(5)
+print(a)
+
+c = [4,5]
+a.append(c)
+print(a)
+
+
+
+
+
