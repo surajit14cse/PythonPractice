@@ -185,6 +185,13 @@ c = [4,5]
 a.append(c)
 print(a)
 
+#extend
+
+a = [1,2,3]
+print(a)
+a.extend([9,8,7])
+print(a)
+
 
 
 
