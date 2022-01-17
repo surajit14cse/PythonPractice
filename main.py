@@ -29,7 +29,20 @@ for i in range(len(thislist)):
       i = i + 1
 
 
+alist = ["cat","dog","rat"]
+for x in alist:
+    print(x)
+age = 18
+if(age >= 18):
+    print("adult")
+else:
+    print("you are adult")
 
+age = 40
+if(age >= 40):
+    print("old")
+else:
+    print("adul")
 
 
 
