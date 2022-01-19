@@ -43,7 +43,16 @@ if(age >= 40):
     print("old")
 else:
     print("adul")
+#List Comprehension
 
+num = [1, 2, 3, 4, 5]
+
+result = [x + x  for x in num]
+print(result)
+
+mun = [2, 4, 6, 7, 5, 8]
+resu = [x for x in num if x%2 == 0]
+print(result)
 
 
 
