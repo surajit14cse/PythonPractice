@@ -67,6 +67,10 @@ newlist = ["apple", "banana", "cherry", "kiwi", "mango"]
 result = [x for x in newlist]
 print(result)
 
+#Accept only numbers lower than 5
+newlist = [x for x in range(10) if x < 5]
+print(newlist)
+
 
 
 
