@@ -10,6 +10,10 @@ print(thislist)
 thislist = [100,144,12,11,544,234,254,265,7765]
 thislist.sort()
 print(thislist)
-
+#Join two list
+list = ["dhaka","khulna","jessore","borishal"]
+list1 = [1,2,3,4]
+list2 = list + list1
+print(list2)
 
 
