@@ -54,6 +54,16 @@ num1 = [1,2,3,4,5,6,7]
 result = [x for x in num1 if x % 2 ==0]
 print(result)
 
+newlist = ["apple","banana","mango","cherry","kiwi"]
+result = [x for x in newlist if "a" in x]
+print(result)
+
+fruits = ["apple","banana","mango","cherry","kiwi"]
+result = [x for x in fruits if x !=  "banana"]
+
+print(result)
+
+
 
 
 
