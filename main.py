@@ -62,6 +62,10 @@ fruits = ["apple","banana","mango","cherry","kiwi"]
 result = [x for x in fruits if x !=  "banana"]
 
 print(result)
+#With no if statement:
+newlist = ["apple", "banana", "cherry", "kiwi", "mango"]
+result = [x for x in newlist]
+print(result)
 
 
 
