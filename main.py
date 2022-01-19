@@ -45,13 +45,13 @@ else:
     print("adul")
 #List Comprehension
 
-num = [1, 2, 3, 4, 5]
+'''num = [1, 2, 3, 4, 5]
 
 result = [x + x  for x in num]
-print(result)
+print(result)'''
 
-mun = [2, 4, 6, 7, 5, 8]
-resu = [x for x in num if x%2 == 0]
+num1 = [1,2,3,4,5,6,7]
+result = [x for x in num1 if x % 2 ==0]
 print(result)
 
 
